@@ -1,0 +1,61 @@
+/* pages/calc/calc.wxss */
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 10rpx;
+}
+.screen {
+  background-color: #fff;
+  text-align: left;
+  width: 650rpx;
+  height: 150rpx;
+  line-height: 150rpx;
+  padding: 0 20rpx;
+  margin: 30rpx;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.btnGroup {
+  display: flex;
+  flex-direction: row;
+}
+.histext {
+  margin-bottom: 20rpx; 
+  height: 80rpx;
+  line-height: 80rpx;
+}
+
+.item {
+  width: 160rpx;
+  min-height: 150rpx;
+  margin: 10rpx;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 150rpx;
+}
+.btnIcon {
+  line-height: 100%;
+  vertical-align: middle;
+}
+
+.orange {
+  background-color: #f78d1d;
+  color: #fef4e9;
+  border: 1px solid #da7c0c;
+}
+.blue {
+  background-color: #0095cd;
+  color: #d9eef7;
+  border: 1px solid #0076a3;
+}
+.button-hover-num {
+  background-color: #0094cc;
+  opacity: 0.7;
+}
+.other-button-hover {
+  background-color: red;
+  opacity: 0.7;
+}

@@ -1,0 +1,17 @@
+<view class='page'>
+  <view class='page_hd'>
+    <text class='page_title'>
+      switch
+    </text>
+  </view>
+  <view class='page_bd'>
+    <view class='section section_gap'>
+      <view class='body_view'>
+        <switch checked bindchange='switchChange1'></switch>
+        <text>{{var1}}</text>
+        <switch bindchange='switchChange2' style="margin-top:150rpx;"></switch>
+        <text>{{var2}}</text>
+      </view>
+    </view>
+  </view>
+</view>
